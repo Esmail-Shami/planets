@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="css/styl.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bgall sticky-top text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imges/nq5qgl5r.jpeg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded-pill">
+            </a>
+            <a class="navbar-brand text-light fs-3 text-uppercase" href="#">moon</a>
+            <button class="navbar-toggler  bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light"></span>
+          </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link text-light" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown text-uppercase">
+                        <a class="nav-link dropdown-toggle text-light " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            planets
+                </a>
+                        <ul class="dropdown-menu bg-info  bg-opacity-50">
+
+                            <li><a class="dropdown-item " href="#">Something </a></li>
+                            <li><a class="dropdown-item " href="#">moon</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item " href="#">Neptune</a></li>
+                            <li><a class="dropdown-item " href="#">Earth</a></li>
+                            <li><a class="dropdown-item " href="#">Venus</a></li>
+                            <li><a class="dropdown-item " href="#">Mercury</a></li>
+                            <li><a class="dropdown-item " href="#">Mars</a></li>
+                            <li><a class="dropdown-item " href="#">Saturn</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit">Search</button>
+                    <button type="button" class="btn btn-primary ms-3 text-capitalize btn-info " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">login</button>
+
+                </form>
+                <div class="modal fade text-cvc " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bgall">
+                                <h3 class="modal-title fs-5 text-uppercase text-light   " id="exampleModalLabel">login</h3>
+                                <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body ">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+                                    </div>
+                                    <div class="modal-footer justify-content-between ">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="button" class="btn btn-secondary  " data-bs-dismiss="modal">Close</button>
+
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /....................................................................../ -->
+
+    <main class="mb-3 ">
+        <div class=" ">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imges/pexels-eberhardgross-572897.jpg" alt="Los Angeles" class="d-block img-fluid" style="width:100% !important ;height: 90vh !important;">
+                        <div class="carousel-caption translate-middle-y bg-black text-info  bg-opacity-50 p-5 fs-4">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imges/pexels-george-desipris-753619 (1).jpg" alt="Chicago" class="d-block img-fluid " style="width:100% ;height: 90vh !important;">
+                        <div class="carousel-caption translate-middle-y  bg-black text-info  bg-opacity-50 p-5 fs-4">
+                            <h3>Chicago</h3>
+                            <p>Thank you, Chicago!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imges/pexels-zelch-12491626.jpg" alt="New York" class="d-block" style="width:100% ;height: 90vh !important;">
+                        <div class="carousel-caption translate-middle-y bg-black text-info  bg-opacity-50 p-5 fs-4">
+                            <h3>New York</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imges/pexels-pixabay-71116 (1).jpg" alt="New York" class="d-block" style="width:100% ;height: 90vh !important;">
+                        <div class="carousel-caption translate-middle-y bg-black text-info  bg-opacity-50 p-5 fs-4">
+                            <h3>New York</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+
+        </div>
+
+
+    </main>
+    <div class="    text-center position-fixed z-3 end-0  p-3 translate-middle-x   top-50 translate-middle-y  " style="z-index: 9999 !important;">
+        <ul class="d-flex flex-column list-group h-100 justify-content-between   list-unstyled text-coss">
+            <li class=" mb-3   ">
+                <a class="nav-link link-primary link-offset-2   " href="# "><i class="fa-brands fa-facebook fa-3x  "></i></a>
+            </li>
+            <li class=" mb-3">
+                <a class="nav-link link-danger link-offset-2 " href="# "><i class="fa-brands fa-instagram fa-3x "></i></a>
+            </li>
+            <li class="mb-3 ">
+                <a class="nav-link link-primary link-offset-2 " href="# "><i class="fa-brands fa-telegram fa-3x "></i></a>
+            </li>
+            <li class="mb-3 ">
+                <a class="nav-link link-body-emphasis link-offset-2 "><i class="fa-brands fa-linkedin fa-3x "></i></a>
+            </li>
+            <li class="mb-3 ">
+                <a class="nav-link link-success link-offset-2 "><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+            </li>
+        </ul>
+    </div>
+    <section>
+        <div class="container-fluid ">
+            <div class=" border-1 border-black border-bottom pb-2 mb-2 ">
+                <div class="bgall p-4 ">
+                    <h4 class="fs-4 text-white ">
+                        Welcome to our website
+
+                    </h4>
+                    <p class="fs-6 text-white ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dolor dui. Donec eget justo ac velit fermentum scelerisque. Nulla facilisi. Donec ac nunc vel eros malesuada fermentum. Donec vel ligula ac est posuere iaculis.
+                    </p>
+                    <a href="# " class="btn btn-outline-info ">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid ">
+
+            <h3 class="text-center bgall text-light p-3 rounded-3 fs-1 mb-3 shadow-lg ">Yemen Tourism</h3>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fs-4 box-sh" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fs-4 box-sh" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
+                            well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item ">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed box-sh fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+                            as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                            though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="w-100 ">
+        </div>
+
+
+    </section>
+    <section>
+        <div class="container-fluid ">
+            <div class="bgall text-light rounded-top-1">
+                <h3 class="text-center bg-info bg-opacity-50  text-light p-3 rounded-1 fs-1 shadow-lg ">Yemen Tourism</h3>
+                <div class=" p-3 ">
+                    <div class="container ">
+                        <h3>Popover Example</h3>
+
+                        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover" onclick="alertTrigger()">
+                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Right</span>
+                        </button>
+
+                        <textarea class="form-control mt-2 " rows="5 " name="text "></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="w-100 ">
+            <!---------------- dddddd----sassassaasas---------------------------->
+            <div class="bgall text-light rounded-top-1 ">
+                <h3 class="text-center bg-info bg-opacity-50  text-light p-3 rounded-1 fs-1 shadow-lg ">Yemen Tourism</h3>
+                <div class=" p-3 ">
+                    <div class="container ">
+                        <h3>Popover Example</h3>
+
+                        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover" onclick="alertTrigger()">
+                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Right</span>
+                        </button>
+                        <textarea class="form-control mt-2 " rows="5 " name="text "></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="w-100 ">
+            <!---------------- dddddd----sassassaasas---------------------------->
+            <div class="bgall text-light rounded-top-1 ">
+                <h3 class="text-center bg-info bg-opacity-50  text-light p-3 rounded-1 fs-1 shadow-lg ">Yemen Tourism</h3>
+                <div class=" p-3 ">
+                    <div class="container ">
+                        <h3>Popover Example</h3>
+
+                        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover" onclick="alertTrigger()">
+                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!">Right</span>
+                        </button>
+                        <textarea class="form-control mt-2 " rows="5 " name="text "></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="w-100 ">
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid ">
+            <div class="shadow-lg ">
+                <div class="imgs-bg w-100 "></div>
+                <h3 class=" text-capitalize bgall text-light w-100 rounded-0 text-center  p-3 fs-3 ">hi esmail mohammed</h3>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid ">
+            <div class="row justify-content-around mb-4 ">
+                <div class="col-lg-4 col-m-6 col-12 mt-4  ">
+                    <div class="card  text-cvc bg-info bg-opacity-50  position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75 " src="imges/card/pexels-carterslens22-1518694790-27103722.jpg " alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="# " class="btn btn-outline-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-12 mt-4 ">
+                    <div class="card text-cvc bg-info bg-opacity-50 position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75 " src="imges/card/pexels-kostas-exarhos-144474017-10676753.jpg" alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="# " class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-12 mt-4 ">
+                    <div class="card text-cvc bg-info bg-opacity-50 position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75 " src="imges/card/pexels-krisof-1252873.jpg" alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="# " class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-12 mt-4 ">
+                    <div class="card text-cvc bg-info bg-opacity-50 position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75 " src="imges/card/pexels-leofallflat-1567069.jpg " alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="# " class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-12 mt-4 ">
+                    <div class="card text-cvc bg-info bg-opacity-50 position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75 " src="imges/card/pexels-miriamespacio-2694037.jpg " alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="# " class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-12 mt-4 ">
+                    <div class="card text-cvc bg-info bg-opacity-50 position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75 " src="imges/card/pexels-pixabay-262780.jpg " alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="# " class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-12 mt-4 ">
+                    <div class="card text-cvc bg-info bg-opacity-50 position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75 " src="imges/card/pexels-pixabay-355465.jpg" alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="# " class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-m-6 col-12 mt-4 ">
+                    <div class="card text-cvc bg-info bg-opacity-50 position-relative bacr " style="height: 500px !important;">
+                        <img class="card-img-top h-75  " src="imges/card/pexels-qaarif-14105168.jpg" alt="Card image " style="width:100% ">
+                        <div class="card-body ">
+                            <h4 class="card-title ">John Doe</h4>
+                            <p class="card-text ">Some example text some example text</p>
+                            <a href="# " class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="imgs-bg w-100 "></div>
+            <div class="w-100 bg-info mt-4 mb-4 " style="height: 2px; "></div>
+        </div>
+    </section>
+    <section class="">
+        <div class="container-fluid  ">
+            <h3 class="text-center bg-info-subtle bg-opacity-100 p-4 text-danger-emphasis text-capitalize ">hi esmail</h3>
+            <div class="row  ">
+                <div class="col-lg-4 col-md-6 col-12 small-div ">
+                    <div class="card card11 rounded-4 overflow-hidden ">
+                        <img class="card-img-top  " src="imges/engineer/pexels-luhras-555551825012.jpg" alt="Card image ">
+                        <div class="card-img-overlay bg-light bg-opacity-50 rounded-0 bg-clo ">
+                            <h4 class="card-title fs-3 ">eighth and most distant </h4>
+                            <p class="card-text fs-6 "><i class="fa-regular fa-address-book"></i> Some example text.</p>
+                            <br class=" mt-5 ">
+                            <div class=" mt-5 pt-5 ">
+                                <img src="imges/engineer/pexels-luhras-555551825012.jpg " class="rounded-circle img-thumbnail mt-5 " style="width: 150px; height: 150px; " alt="Cinque Terre ">
+                                <span class=" ms-3 mt-2 d-block text-wrap text-capitalize ">eng. esmail mohmmad </span>
+                                <span class=" ms-3 d-block  text-wrap text-capitalize "> Software engineer</span>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 small-div ">
+                    <div class="card card11 rounded-4 overflow-hidden ">
+                        <img class="card-img-top h-100 " src="imges/engineer/pexels-alimadad-997512.jpg " alt="Card image ">
+                        <div class="card-img-overlay bg-light bg-opacity-50 rounded-0 bg-clo ">
+                            <h4 class="card-title fs-3 ">eighth and most distant </h4>
+                            <p class="card-text fs-6 "><i class="fa-regular fa-address-book"></i> Some example text.</p>
+                            <br class=" mt-5 ">
+                            <div class=" mt-5 pt-5 ">
+                                <img src="imges/engineer/pexels-alimadad-997512.jpg" class="rounded-circle img-thumbnail mt-5 " style="width: 150px; height: 150px; " alt="Cinque Terre ">
+                                <span class=" ms-3 mt-2 d-block  text-wrap text-capitalize ">eng. esmail mohmmad </span>
+                                <span class=" ms-3  d-block  text-wrap text-capitalize "> Software engineer</span>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 small-div ">
+                    <div class="card card11 rounded-4 overflow-hidden ">
+                        <img class="card-img-top h-100 " src="imges/engineer/50.jpg " alt="Card image ">
+                        <div class="card-img-overlay bg-light bg-opacity-50 rounded-0 bg-clo ">
+                            <h4 class="card-title fs-3 ">eighth and most distant </h4>
+                            <p class="card-text fs-6 "><i class="fa-regular fa-address-book"></i> Some example text.</p>
+                            <br class=" mt-5 ">
+                            <div class=" mt-5 pt-5 ">
+                                <img src="imges/engineer/50.jpg" class="rounded-circle img-thumbnail mt-5 " style="width: 150px; height: 150px; " alt="Cinque Terre ">
+                                <span class=" ms-3 mt-2 d-block  text-wrap text-capitalize ">eng. esmail mohmmad </span>
+                                <span class=" ms-3  d-block  text-wrap text-capitalize "> Software engineer</span>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+    <section class=" border-1 border-top border-black pt-3">
+        <div class="container-fluid ">
+            <h3 class=" p-3 text-center text-uppercase">planets</h3>
+            <div class="row flex-column align-items-center m-auto ">
+                <div class="col-11 rounded-2 mb-3 p-0 ">
+                    <div class="card box-sh bg-dark-subtle text-light ">
+                        <div class="row g-0 justify-content-lg-between ">
+                            <div class="col-md-3 bg-dark-subtle mm rounded-end-2 order-lg-4 p-0 " style="height: 300px;">
+                                <img src="imges/planets/pexels-pixabay-87651.jpg " class="img-fluid rounded-end-2 w-100 h-100 " style="max-height: 300px; " alt="... ">
+                            </div>
+                            <div class="col-md-9 p-4">
+                                <div class="card-body ">
+                                    <h5 class="card-title fa-2x ">Card title</h5>
+                                    <p class="card-text "> <i class="fa-solid fa-calendar-days"></i> <small class=" text-light ">Last updated 3 mins ago</small></p>
+                                    <p class="card-text  ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quidem culpa qui eos consectetur omnis pariatur. Perspiciatis odio, necessitatibus non sunt in beatae officiis accusamus delectus, dignissimos vitae cupiditate
+                                        quo?
+                                    </p>
+
+                                    <div class="d-flex justify-content-start ">
+                                        <button type="button " class="btn btn-sm btn-outline-secondary me-1 "><i class="fa-regular fa-clock"></i> View</button>
+                                        <button type="button " class="btn btn-sm btn-outline-primary me-1 "><i class="fa-solid fa-tags"></i> Edit</button>
+                                        <button type="button " class="btn btn-sm btn-outline-info text-capitalize"><i class="fa-solid fa-play"></i> play</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /////////////////////////////1/////////////////////////////////// -->
+                <div class="col-11 rounded-2 mb-3 p-0 ">
+                    <div class="card box-sh bgall text-light ">
+                        <div class="row g-0 justify-content-lg-between ">
+                            <div class="col-md-3 bg-dark-subtle rounded-start-2 vv " style="height: 300px !important;">
+                                <img src="imges/planets/pexels-t-keawkanok-3252323-13229275.jpg " class="img-fluid rounded-start-2 w-100 h-100 " style="max-height: 300px; " alt="... ">
+                            </div>
+                            <div class="col-md-9 p-4">
+                                <div class="card-body ">
+                                    <h5 class="card-title fa-2x ">Card title</h5>
+                                    <p class="card-text "> <i class="fa-solid fa-calendar-days"></i> <small class="text-light ">Last updated 3 mins ago</small></p>
+                                    <p class="card-text  ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quidem culpa qui eos consectetur omnis pariatur. Perspiciatis odio, necessitatibus non sunt in beatae officiis accusamus delectus, dignissimos vitae cupiditate
+                                        quo?
+                                    </p>
+
+                                    <div class="d-flex justify-content-start ">
+                                        <button type="button " class="btn btn-sm btn-outline-secondary me-1 "><i class="fa-regular fa-clock"></i> View</button>
+                                        <button type="button " class="btn btn-sm btn-outline-primary me-1 "><i class="fa-solid fa-tags"></i> Edit</button>
+                                        <button type="button " class="btn btn-sm btn-outline-info text-capitalize "><i class="fa-solid fa-play"></i> play</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ///////////////////////////////////2///////////////////////////// -->
+                <div class="col-11 rounded-2 mb-3 p-0 ">
+                    <div class="card bg-dark-subtle box-sh text-light">
+                        <div class="row g-0 justify-content-lg-between ">
+                            <div class="col-md-3 bg-dark-subtle mm rounded-end-2 order-md-4 p-0 " style="height: 300px !important;">
+                                <img src="imges/planets/pexels-zelch-20337597.jpg " class="img-fluid rounded-end-2 w-100 h-100 " style="max-height: 300px; " alt="... ">
+                            </div>
+                            <div class="col-md-9 p-4">
+                                <div class="card-body ">
+                                    <h5 class="card-title fa-2x ">Card title</h5>
+                                    <p class="card-text "> <i class="fa-solid fa-calendar-days"></i> <small class="text-light ">Last updated 3 mins ago</small></p>
+                                    <p class="card-text  ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quidem culpa qui eos consectetur omnis pariatur. Perspiciatis odio, necessitatibus non sunt in beatae officiis accusamus delectus, dignissimos vitae cupiditate
+                                        quo?
+                                    </p>
+
+                                    <div class="d-flex justify-content-start ">
+                                        <button type="button " class="btn btn-sm btn-outline-secondary me-1 "><i class="fa-regular fa-clock"></i> View</button>
+                                        <button type="button " class="btn btn-sm btn-outline-primary me-1 "><i class="fa-solid fa-tags"></i> Edit</button>
+                                        <button type="button " class="btn btn-sm btn-outline-info text-capitalize "><i class="fa-solid fa-play"></i> play</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ////////////////////////////////////3//////////////////////////// -->
+                <div class="col-11 rounded-2 mb-3 p-0  ">
+                    <div class="card box-sh bgall  text-light">
+                        <div class="row g-0 justify-content-lg-between ">
+                            <div class="col-md-3 bg-dark-subtle rounded-start-2 vv  " style="height: 300px !important;">
+                                <img src="imges/planets/pexels-zelch-20376394.jpg " class="img-fluid rounded-start-2 w-100 h-100 " style="max-height: 600px; " alt="... ">
+                            </div>
+                            <div class="col-md-9 p-4">
+                                <div class="card-body ">
+                                    <h5 class="card-title fa-2x ">Card title</h5>
+                                    <p class="card-text "> <i class="fa-solid fa-calendar-days"></i> <small class="text-light ">Last updated 3 mins ago</small></p>
+                                    <p class="card-text  ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quidem culpa qui eos consectetur omnis pariatur. Perspiciatis odio, necessitatibus non sunt in beatae officiis accusamus delectus, dignissimos vitae cupiditate
+                                        quo?
+                                    </p>
+
+                                    <div class="d-flex justify-content-start ">
+                                        <button type="button " class="btn btn-sm btn-outline-secondary me-1 "><i class="fa-regular fa-clock"></i> View</button>
+                                        <button type="button " class="btn btn-sm btn-outline-primary me-1 "><i class="fa-solid fa-tags"></i> Edit</button>
+                                        <button type="button " class="btn btn-sm btn-outline-info text-capitalize "><i class="fa-solid fa-play"></i> play</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ///////////////////////////////////4///////////////////////////// -->
+            </div>
+        </div>
+    </section>
+    <!-- /////////////////////////////////// -->
+    <section class="mt-4">
+        <div class="container ">
+            <div class="row justify-content-lg-between justify-content-around ">
+                <div class="col-lg-3 col-md-6 col-8 mb-3 ">
+                    <div class="card m-0 border-0 text-center bg-dark-subtle rounded-2 box-sh p-0 border-success bg-opacity-25 border-2 border-info ">
+                        <div class="card-header m-0 border-0 bg-transparent fs-4 ">Header</div>
+                        <div class="card-body  ">
+                            <button class="btn-dark bgall shadow-lg rounded-4 p-2 ">
+                                <i class="fa-regular fa-user fa-4x text-light"></i>
+                            </button>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 border-success ">Footer</div>
+                    </div>
+                </div>
+                <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+                <div class=" col-8 col-lg-3 col-md-6  mb-3  ">
+                    <div class="card rounded-2 box-sh p-0 border-success m-0 border-0 text-center bg-dark-subtle bg-opacity-25 border-2 border-info ">
+                        <div class="card-header m-0 border-0 bg-transparent fs-4 ">Header</div>
+                        <div class="card-body  ">
+                            <button class="btn-dark bgall shadow-lg rounded-4 p-2 ">
+                                <i class="fa-brands fa-github fa-4x text-light"></i>
+                            </button>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 border-success ">Footer</div>
+                    </div>
+                </div>
+
+                <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+                <div class="  col-lg-3 col-md-6 col-8 mb-3 ">
+                    <div class="card rounded-2 box-sh p-0 border-success m-0 border-0 text-center bg-dark-subtle bg-opacity-25 border-2 border-info ">
+                        <div class="card-header m-0 border-0 bg-transparent fs-4 ">Header</div>
+                        <div class="card-body  ">
+                            <button class="btn-dark bgall shadow-lg rounded-4 p-2 ">
+                                <i class="fa-solid fa-video fa-4x text-light"></i>
+                            </button>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 border-success ">Footer</div>
+                    </div>
+                </div>
+
+                <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+                <div class="  col-lg-3 col-md-6 col-8 mb-3 ">
+                    <div class="card rounded-2 box-sh p-0 border-success m-0 border-0 text-center bg-dark-subtle bg-opacity-25 border-2 border-info ">
+                        <div class="card-header m-0 border-0 bg-transparent fs-4 ">Header</div>
+                        <div class="card-body  ">
+                            <button class="btn-dark bgall shadow-lg rounded-4 p-2 ">
+                                <i class="fa-solid fa-earth-americas fa-4x text-light"></i>
+                            </button>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 border-success ">Footer</div>
+                    </div>
+                </div>
+
+                <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+            </div>
+        </div>
+    </section>
+    <footer class="bgall text-light mt-2 " style="min-height: 60vh; ">
+        <div class="container-fluid ">
+
+            <div class="row pt-3 border-bottom border-2 border-black ">
+                <div class="col-lg-4 col-md-6 col-12 ">
+                    <div class="d-flex justify-content-center border-top border-bottom pt-3 pb-3 border-2 border-black align-items-center ">
+                        <div class="flex-lg-shrink-0 bg-secondary  rounded-pill">
+                            <img src="imges/icon/parade-planets_8605932.png " class=" shadow bg-secondary rounded-pill" alt=" ">
+                        </div>
+                        <div class="flex-lg-grow-1 ms-3 ">media component
+                        </div>
+                    </div>
+                    <ul class="d-flex flex-column text-center">
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Galaxies</a></li>
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Star clusters</a></li>
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Holes</a></li>
+                    </ul>
+                </div>
+                <!-- /////////////////// -->
+                <div class=" col-lg-4 col-md-6 col-12 ">
+                    <div class="d-flex justify-content-center border-top border-bottom pt-3 pb-3 border-2 border-black align-items-center ">
+                        <div class="flex-lg-shrink-0 bg-secondary rounded-pill ">
+                            <img src="imges/icon/planet_6704406.png " class="bg-secondary rounded-pill shadow " alt="... ">
+                        </div>
+                        <div class="flex-lg-grow-1 ms-3 ">
+                            This is some content from a
+                        </div>
+                    </div>
+                    <ul class="d-flex flex-column text-center ">
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="# ">planets</a></li>
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="# ">stars</a></li>
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="# ">Moons</a></li>
+                    </ul>
+                </div>
+                <!-- /////////////////// -->
+                <div class=" col-lg-4 col-md-6 col-12 ">
+                    <div class="d-flex justify-content-center border-top border-bottom pt-3 pb-3 border-2 border-black align-items-center ">
+                        <div class="flex-lg-shrink-0 bg-secondary rounded-pill ">
+                            <img src="imges/icon/planets_8357849.png " class="bg-secondary rounded-pill shadow " alt="... ">
+                        </div>
+                        <div class="flex-lg-grow-1 ms-3 ">
+                            This is some
+                        </div>
+                    </div>
+                    <ul class="d-flex flex-column text-center ">
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="# ">attractiveness</a></li>
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="# ">Atmospheres</a></li>
+                        <li class="list-group-item fs-5 text-capitalize "><a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="# ">Living organisms</a></li>
+                    </ul>
+                </div>
+                <!-- /////////////////// -->
+                <div class="col-12 border-top border-2 border-black text-center pt-2 fa-2x ">
+                    <p class="copy text-uppercase link-secondary "> engineer &copy; 2025 planets Lorem ipsum dolor sit. </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js "></script>
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover "]'))
+        var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip "]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        function alertTrigger() {
+            alert("Hello World! ");
+        }
+    </script>
+
+
+</body>
+
+</html>

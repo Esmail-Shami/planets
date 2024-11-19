@@ -1,0 +1,104 @@
+.bgall {
+    background-color: #001F3F !important;
+}
+
+.bgall-ho {
+    background-color: #6a9ab075 !important;
+}
+
+.text-coss {
+    color: #3A6D8C !important;
+}
+
+.text-cvc {
+    color: #001F3F !important;
+}
+
+.heroimg {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    background-color: rgba(240, 248, 255, 0.393);
+}
+
+.modal-backdrop.show {
+    z-index: -1;
+}
+
+.imgs-bg {
+    height: 300px;
+    background-image: url(../imges/pexels-george-desipris-753619\ \(1\).jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card11 {
+    transition: all 0.5s;
+}
+
+.small-div:hover .card11 {
+    transform: scale(0.9, 0.9);
+}
+
+.bg-clo {
+    transition: all 0.5s;
+}
+
+.small-div:hover .bg-clo {
+    background-color: #001f3f6b !important;
+}
+
+@media (min-width: 768px) {
+    .vv {
+        clip-path: polygon(0 0, 100% 0, 81% 100%, 0 100%);
+    }
+    .mm {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+    }
+}
+
+.hc {
+    height: 100px !important;
+}
+
+.bacr::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 0%;
+    background-color: #001f3f54;
+    ;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.bacr::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: #001f3f54;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.bacr:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.bacr:hover:before {
+    width: 100%;
+    height: 100%;
+}
+
+.box-sh {
+    box-shadow: 2px 5px 20px #001F3F !important;
+}
